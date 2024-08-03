@@ -54,6 +54,7 @@ export default function LoginForm() {
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col gap-2 mx-auto max-w-md"
+          data-testid="login-form"
         >
           <div className="flex flex-col mb-4">
             <label>Email</label>
@@ -62,6 +63,7 @@ export default function LoginForm() {
               className="border border-black text-black"
               type="email"
               placeholder="Email"
+              data-testid="email-input"
             />
             {errors.email && <span>{errors.email.message}</span>}
           </div>
@@ -72,10 +74,11 @@ export default function LoginForm() {
               className="border border-black text-black"
               type="password"
               placeholder="Password"
+              data-testid="password-input"
             />
             {errors.password && <span>{errors.password.message}</span>}
           </div>
-          <Button type="submit">Login</Button>
+          <Button type="submit" data-testid="login-button">Login</Button>
         </form>
         <p className="text-center mt-4">
           Don&apos;t have an account yet? <Link href="/register" className="text-orange-600">Register</Link>

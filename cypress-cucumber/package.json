@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^13.13.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
