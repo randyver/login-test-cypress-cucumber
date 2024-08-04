@@ -61,7 +61,7 @@ const SearchPage = () => {
 
       <div className="w-full max-w-md flex flex-col gap-4">
         {searchPerformed && results.length === 0 ? (
-          <p className="text-center text-red-500">Nama buah tidak ketemu</p>
+          <p className="text-center text-red-500">Fruit not found</p>
         ) : (
           results.map((result, index) => (
             <Card key={index} className="w-full border border-gray-300 shadow-lg">
