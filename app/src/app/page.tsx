@@ -14,6 +14,9 @@ export default function Home() {
           <Link href="/search">
             <p className="bg-green-500 text-white px-6 py-3 rounded-md shadow-lg hover:bg-green-600 transition duration-200">Go to Search</p>
           </Link>
+          <Link href="/profile">
+            <p className="bg-purple-500 text-white px-6 py-3 rounded-md shadow-lg hover:bg-purple-600 transition duration-200">Go to Profile</p>
+          </Link>
         </div>
       </div>
     </main>
