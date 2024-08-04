@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "@simonsmith/cypress-image-snapshot": "^9.0.1",
+    "@testing-library/cypress": "latest",
+    "cypress": "latest",
+    "typescript": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "./cypress/reports/cucumber-report.json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "./cypress/reports/cucumber-report.html"
+    },
+    "omitFiltered": true
+  }
+}

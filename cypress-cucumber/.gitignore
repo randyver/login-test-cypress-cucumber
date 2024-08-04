@@ -1,0 +1,7 @@
+*.iml
+.DS_Store
+.idea
+cypress/screenshots
+cypress/reports
+node_modules
+__diff_output__
