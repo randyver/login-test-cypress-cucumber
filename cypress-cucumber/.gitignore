@@ -5,3 +5,4 @@ cypress/screenshots
 cypress/reports
 node_modules
 __diff_output__
+.vscode
