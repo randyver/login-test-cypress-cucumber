@@ -23,9 +23,9 @@ This repository consists of two folders: `app` and `cypress-cucumber`, where `ap
 Since this repository focuses on simple automation testing with Cypress-Cucumber, here are the steps to test the deployed website: [https://login-test-cypress-cucumber.vercel.app/](https://login-test-cypress-cucumber.vercel.app/)
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/randyver/login-test-cypress-cucumber.git
-   ```
+```bash
+git clone https://github.com/randyver/login-test-cypress-cucumber.git
+```
 2. Navigate to the testing repository:
 ```bash
 cd cypress-cucumber
